@@ -2,6 +2,9 @@ import { Header } from "components";
 
 const Dashboard = () => {
   const user = { name: "Liara" };
+  const dashboard = {
+    totalUsers: 12450,
+  };
   return (
     <main className="dashboard wrapper">
       <Header
