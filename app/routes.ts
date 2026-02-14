@@ -6,4 +6,6 @@ export default [
     route("dashboard", "routes/admin/dashboard.tsx"),
     route("all-users", "routes/admin/all-users.tsx"),
   ]),
+  route("/sentry-example-page", "routes/sentry-example-page.tsx"),
+  route("/api/sentry-example-api", "routes/api.sentry-example-api.ts")
 ] satisfies RouteConfig;
